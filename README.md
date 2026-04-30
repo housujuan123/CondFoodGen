@@ -8,10 +8,10 @@
 
 ## 📝 Overview
 
-CondFoodGen is a diffusion‑based framework for generating realistic and semantically consistent food images from **recipe texts** and **structural conditions** (edge/depth maps). It introduces two key innovations:
-
-- **Bidirectional Adaptive Gating (BAG)** – enables dynamic, context‑aware interaction between the control stream and the generation stream.
-- **Wavelet‑Guided Hierarchical Attention (WGHA)** – refines multi‑frequency features to preserve fine‑grained textures and global structures.
+**CondFoodGen** is a diffusion‑based framework for **controllable food image generation** from recipe texts and structural conditions. Its key innovations are:
+1. **A two‑stream architecture** for decoupled control and generation.
+2. **Bidirectional Adaptive Gating (BAG)** for dynamic cross‑stream interaction.
+3. **Wavelet‑Guided Hierarchical Attention (WGHA)** for multi‑frequency feature refinement.
 
 ## 🏗️ Framework
 
@@ -30,14 +30,20 @@ CondFoodGen is a diffusion‑based framework for generating realistic and semant
 
 <div align="center">
 
-### Comparison with food‑specific generation methods
+###  🍽️ Comparison with food‑specific generation methods
 
 <img src="figures/Quantitative%20result1.png">
 
-### Comparison with conditional control methods
+###  🎮 Comparison with conditional generation methods
 
 <img src="figures/Quantitative%20result2.png">
 
+</div>
+
+### 🍰 Ablation study of BAG and WGHA modules
+
+<div align="center">
+  <img src="figures/ablation.png">
 </div>
 
 ## 🚀 Getting Started
