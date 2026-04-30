@@ -1,5 +1,4 @@
 # CondFoodGen
-# CondFoodGen
 
 **A Conditional Two‑Stream Network for Controllable Food Image Generation**
 
@@ -40,3 +39,18 @@ python3 -m venv .pt13
 source .pt13/bin/activate          # Linux/macOS
 # .pt13\Scripts\activate           # Windows
 pip install -r requirements/pt13.txt
+
+## 🧪 Training
+
+We provide a single training script `main.py` with a three‑phase progressive strategy.
+
+### Prerequisites
+
+- Download and prepare the dataset (e.g., VIREO Food‑172, Recipe1M, Food2K).  
+- Place the dataset root path in the config file `configs/training/sd/sd15_encD_canny_53m.yaml` (modify `data.params.train.root` and `data.params.validation.root`).
+- (Optional) Download a pretrained Stable Diffusion 1.5 checkpoint and set its path in the config.
+
+### Training Command
+
+```bash
+python main.py -t --base configs/training/sd/sd15_encD_canny_53m.yaml --logdir ./logs --name your_experiment_name
