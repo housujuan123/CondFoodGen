@@ -43,7 +43,7 @@
 ### 🍰 Ablation study of BAG and WGHA modules
 
 <div align="center">
-  <img src="figures/ablation.png">
+  <img src="figures/Quantitative%20result4.png">
 </div>
 
 ## 🚀 Getting Started
