@@ -15,17 +15,30 @@ CondFoodGen is a diffusion‑based framework for generating realistic and semant
 
 ## 🏗️ Framework
 
-![Framework](figures/framework.png)
+![CondFoodGen framework](figures/condfoodgen.png)
 
-## 📊 Results
 
-Comparison with state‑of‑the‑art methods on VIREO Food‑172, Recipe1M, and Food2K:
+**Bidirectional Adaptive Gating (BAG)** enables dynamic cross‑stream interaction.  
+<p align="center">
+  <img src="figures/BAG.png" alt="BAG module" width="350">
+</p>
 
-![Quantitative results](figures/results.png)
+**Wavelet‑Guided Hierarchical Attention (WGHA)** refines multi‑frequency features.  
+![WGHA module](figures/WGHA.png)
 
-### Sample Generations
+## 📊 Quantitative Results
 
-![Examples](figures/examples.png)
+<div align="center">
+
+### Comparison with food‑specific generation methods
+
+<img src="figures/Quantitative%20result1.png">
+
+### Comparison with conditional control methods
+
+<img src="figures/Quantitative%20result2.png">
+
+</div>
 
 ## 🚀 Getting Started
 
