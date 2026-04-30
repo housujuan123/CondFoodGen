@@ -72,4 +72,4 @@ We provide a single training script `main.py` with a three‑phase progressive s
 ### Training Command
 
 ```bash
-python main.py -t --base configs/training/sd/sd15_encD_canny_53m.yaml --logdir ./logs --name your_experiment_name
+python main.py -t --base configs/sd15_encD_canny_53m.yaml --logdir ./logs --name your_experiment_name
